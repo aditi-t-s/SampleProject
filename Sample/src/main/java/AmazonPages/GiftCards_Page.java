@@ -11,6 +11,8 @@ public class GiftCards_Page extends AppDriver{
 		super();
 		// TODO Auto-generated constructor stub
 	}
+	
+	//there is a big change
 
 	@FindBy (xpath = "//*[text()='Gift Cards']")
 	public WebElement GiftCards_Link;
